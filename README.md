@@ -1,68 +1,157 @@
-# [Project Name]
+# VoiceCraft AI
 
-[A clear, 1-2 sentence description of what your project does and the problem it solves.]
+VoiceCraft AI is a full-stack AI content studio for generating human-like voiceovers, dialogue, batch audio, clone voices, and cinematic AI video experiences using Gemini-powered creative workflows.
+
+Built for creators, marketers, educators, and product teams, it combines text-to-speech, AI-assisted scripting, voice customization, and video storytelling in a single streamlined workspace.
 
 ## ✨ Features
 
-- **[Feature 1]:** [Brief explanation of what this feature does.]
-- **[Feature 2]:** [Brief explanation of what this feature does.]
-- **[Feature 3]:** [Brief explanation of what this feature does.]
+- AI voice generation with multilingual and Indian English voice profiles
+- Solo narrator mode for podcasts, explainers, and narration
+- Dialogue studio for multi-speaker conversations and scenes
+- Batch queue processing for large text-to-audio workloads
+- Voice cloning studio for custom speaker profiles and style prompts
+- AI chat director for prompt-driven creation and workflow suggestions
+- AI video studio for cinematic scenes, motion, and storytelling prompts
+- Video-to-text transcription workflow for repurposing content
+- Audio trimming, extension, normalization, and export tools
+- Project dashboard for organizing creative work and media assets
 
-## 🛠️ Tech Stack
+## 🧠 Tech Stack
 
-- **AI / LLM:** Google Gemini API (prototyped in Google AI Studio)
-- **Language / Framework:** [e.g., Python / Node.js / React / Next.js]
-- **Other Tools:** [e.g., Tailwind CSS, FastAPI, etc.]
+- Frontend: React + TypeScript + Vite
+- Styling: Tailwind CSS
+- API layer: Google Gemini API
+- Audio/video tooling: browser media tools, generated audio workflows, video editing helpers
+- Runtime: Node.js + Express-compatible server setup
+
+## 📦 Project Structure
+
+```bash
+.
+├── src/
+│   ├── components/
+│   ├── context/
+│   ├── types/
+│   ├── utils/
+│   ├── App.tsx
+│   └── main.tsx
+├── public/
+├── .env.example
+├── index.html
+├── metadata.json
+├── package.json
+├── server.ts
+├── tsconfig.json
+├── vite.config.ts
+├── LICENSE.tsx
+├── README.md
+└── firebase-applet-config.json
+```
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-- [e.g., Node.js 18+ or Python 3.10+]
-- A Google Gemini API key from [Google AI Studio](https://google.com)
+- Node.js 18+
+- npm or bun
+- A Google Gemini API key from [Google AI Studio](https://aistudio.google.com/)
 
 ### Installation
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com[your-username]/[your-repo-name].git
-   cd [your-repo-name]
-   ```
+1. Clone the repository:
 
-2. **Install dependencies:**
-   ```bash
-   # For Node.js projects:
-   npm install
+```bash
+git clone https://github.com/rinkudebbarma2016/voicecraft-ai.git
+cd voicecraft-ai
+```
 
-   # For Python projects:
-   pip install -r requirements.txt
-   ```
+2. Install dependencies:
 
-3. **Configure environment variables:**
-   Create a `.env` file in the root directory and add your API key:
-   ```env
-   GEMINI_API_KEY=your_api_key_here
-   ```
+```bash
+npm install
+```
 
-4. **Run the application:**
-   ```bash
-   # For Node.js projects:
-   npm run dev
+3. Configure environment variables:
 
-   # For Python projects:
-   python main.py
-   ```
+Copy the example file and add your keys:
+
+```bash
+cp .env.example .env
+```
+
+Then update `.env`:
+
+```env
+GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
+APP_URL="http://localhost:3000"
+```
+
+> In Google AI Studio / app-hosted environments, `GEMINI_API_KEY` and `APP_URL` may also be injected automatically by the platform runtime.
+
+### Run the app
+
+```bash
+npm run dev
+```
+
+The app will start in development mode with Vite. Open the local URL shown in the terminal to interact with the studio.
+
+### Production build
+
+```bash
+npm run build
+```
+
+### Preview the production build
+
+```bash
+npm run preview
+```
+
+## 🛠️ Available Scripts
+
+```bash
+npm run dev      # Start the Vite dev server
+npm run build    # Build the production bundle
+npm run preview  # Preview the built app
+npm run lint     # TypeScript lint check (configured)
+```
+
+## 🔐 Environment Variables
+
+| Variable | Required | Description |
+| --- | --- | --- |
+| `GEMINI_API_KEY` | Yes | API key used to access Google Gemini models |
+| `APP_URL` | Recommended | Base URL for app endpoints and self-referential links |
+
+## 🎯 Use Cases
+
+- AI narration for YouTube and podcast content
+- Voiceovers for product demos and tutorials
+- Dialogue-based storytelling and synthetic interviews
+- Multi-voice, multi-style audio generation for campaigns
+- Storyboard and video conception workflows with AI prompts
+- Educational and business explainers with polished voice output
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com[your-username]/[your-repo-name]/issues) to get started.
+Contributions are welcome.
 
-1. Fork the project.
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
+1. Fork the project
+2. Create your feature branch
+3. Commit your changes
+4. Push to the branch
+5. Open a pull request
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+This project is licensed under the MIT License. See `LICENSE.tsx` for details.
+
+## 🌐 Repository
+
+- GitHub: https://github.com/rinkudebbarma2016/voicecraft-ai
+
+## 📝 Notes
+
+VoiceCraft AI is designed as a creative studio and experimentation platform for generative audio and video workflows. It is especially useful for prototyping AI-first media generation pipelines with Gemini APIs.
