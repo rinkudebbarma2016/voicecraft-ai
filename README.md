@@ -111,7 +111,7 @@ APP_URL="http://localhost:3000"
 npm run dev
 ```
 
-The app will start in development mode with Vite. Open the local URL shown in the terminal to interact with the studio.
+The app will start in development mode. Open the local URL shown in the terminal to use the studio.
 
 ### Production build
 
@@ -128,10 +128,10 @@ npm run preview
 ## 🛠️ Available Scripts
 
 ```bash
-npm run dev      # Start the Vite dev server
+npm run dev      # Start the development server
 npm run build    # Build the production bundle
 npm run preview  # Preview the built app
-npm run lint     # TypeScript lint check (configured)
+npm run lint     # TypeScript type-check (tsc --noEmit)
 ```
 
 ## 🔐 Environment Variables
