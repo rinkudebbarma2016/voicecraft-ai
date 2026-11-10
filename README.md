@@ -1,4 +1,19 @@
 # VoiceCraft AI
+## 🚧 Project Status & Roadmap
+
+> **Status: Active Development (Beta)**  
+> VoiceCraft AI is an ongoing open-source project currently under active construction. Core features are live for testing at [rinkuaistudio.ai.studio](https://ai.studio), and new tools are being shipped regularly.
+
+### Current Progress
+- [x] Core Text-to-Speech (TTS) with multilingual and Indian English voice profiles
+- [x] Solo Narrator & Multi-Speaker Dialogue Studio UI
+- [x] Voice Cloning Studio & AI Chat Director prototype
+- [x] Audio trimming, normalization, and batch queue workflow
+- [ ] **In Progress:** Multi-format audio export (`WAV`, `MP3`, `OGG`) with bitrate controls
+- [ ] **Planned:** Custom pause duration and emotion tags per dialogue line
+- [ ] **Planned:** Pre-upload audio quality validation for voice cloning
+- [ ] **Planned:** Automated GitHub Actions CI/CD testing and linting
+
 
 VoiceCraft AI is a full-stack AI content studio for generating human-like voiceovers, dialogue, batch audio, clone voices, and cinematic AI video experiences using Gemini-powered creative workflows.
 
