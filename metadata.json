@@ -1,0 +1,6 @@
+{
+  "name": "VoxStudio - AI Text to Speech Studio",
+  "description": "Ultra-realistic text-to-speech studio with multi-voice selection, custom emotional styles, dialogue synthesis, audio effects, and instant export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
