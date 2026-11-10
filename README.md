@@ -59,7 +59,7 @@ Built for creators, marketers, educators, and product teams, it combines text-to
 ├── server.ts
 ├── tsconfig.json
 ├── vite.config.ts
-├── LICENSE.tsx
+├── LICENSE.md
 ├── README.md
 └── firebase-applet-config.json
 ```
@@ -161,7 +161,7 @@ Contributions are welcome.
 
 ## 📄 License
 
-This project is licensed under the MIT License. See `LICENSE.tsx` for details.
+This project is licensed under the MIT License. See `LICENSE.md` for details.
 
 ## 🌐 Repository
 
