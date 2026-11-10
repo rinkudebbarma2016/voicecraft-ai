@@ -1,10 +1,12 @@
 # VoiceCraft AI
+
 ## 🚧 Project Status & Roadmap
 
 > **Status: Active Development (Beta)**  
-> VoiceCraft AI is an ongoing open-source project currently under active construction. Core features are live for testing at [rinkuaistudio.ai.studio](https://ai.studio), and new tools are being shipped regularly.
+> VoiceCraft AI is an ongoing open-source project under active development. Follow the setup instructions below to run it locally; new tools are being shipped iteratively.
 
 ### Current Progress
+
 - [x] Core Text-to-Speech (TTS) with multilingual and Indian English voice profiles
 - [x] Solo Narrator & Multi-Speaker Dialogue Studio UI
 - [x] Voice Cloning Studio & AI Chat Director prototype
@@ -13,7 +15,6 @@
 - [ ] **Planned:** Custom pause duration and emotion tags per dialogue line
 - [ ] **Planned:** Pre-upload audio quality validation for voice cloning
 - [ ] **Planned:** Automated GitHub Actions CI/CD testing and linting
-
 
 VoiceCraft AI is a full-stack AI content studio for generating human-like voiceovers, dialogue, batch audio, clone voices, and cinematic AI video experiences using Gemini-powered creative workflows.
 
@@ -68,7 +69,7 @@ Built for creators, marketers, educators, and product teams, it combines text-to
 
 ### Prerequisites
 
-- Node.js 18+
+- Node.js 20.19+ or 22.12+
 - npm or bun
 - A Google Gemini API key from [Google AI Studio](https://aistudio.google.com/)
 
@@ -169,4 +170,4 @@ This project is licensed under the MIT License. See `LICENSE.md` for details.
 
 ## 📝 Notes
 
-VoiceCraft AI is designed as a creative studio and experimentation platform for generative audio and video workflows. It is especially useful for prototyping AI-first media generation pipelines with Gemini APIs.
+VoiceCraft AI is designed as a creative studio and experimentation platform for generative audio and video workflows. It is especially useful for prototyping AI-first media generation pipelines with Gemini-powered tools.
